@@ -58,7 +58,7 @@ function Slideshow() {
         const startAutoScroll = () => {
             clearInterval(autoScrollInterval); // Clear any existing intervals
             autoScrollInterval = setInterval(() => {
-                carousel.scrollLeft += 500; // Adjust this value to control the speed of auto-scroll
+                carousel.scrollLeft += 700; // Adjust this value to control the speed of auto-scroll
                 if (carousel.scrollLeft + carousel.offsetWidth >= carousel.scrollWidth) {
                     carousel.scrollLeft = 0; // Reset scroll to the beginning when reaching the end
                 }
